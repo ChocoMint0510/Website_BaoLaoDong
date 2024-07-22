@@ -1,0 +1,347 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width= device-width, initial-scale = 1.0">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="Web1.js">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<nav class="navbar navbar-expand bg-body-tertiary" id="header">
+  <div class="container-fluid"> <a class="navbar-brand" href="#">BÁO LAO ĐỘNG</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Trang chủ</a> </li>
+        <li class="nav-item"> <a class="nav-link active" href="#">Thông tin</a> </li>
+        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Danh mục</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Media</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-item"><a href="#">Đến trang media của LaoDongTV</a></li>
+                <li class="dropdown-item"><a href="#">Đến trang Youtube của LaoDongTV</a></li>
+              </ul>
+            </li>
+            <li><a class="dropdown-item" href="#">Thời sự</a></li>
+            <li><a class="dropdown-item" href="#">Xã hội</a></li>
+            <li><a class="dropdown-item" href="#">Thế giới</a></li>
+            <li><a class="dropdown-item" href="#">Văn hóa</a></li>
+            <li><a class="dropdown-item" href="#">Thể thao</a></li>
+            <li><a class="dropdown-item" href="#">Công Nghệ</a></li>
+            <li><a class="dropdown-item" href="#">Giải trí</a></li>
+            <li><a class="dropdown-item" href="#">Trong nước</a></li>
+            <li><a class="dropdown-item" href="#">Game</a></li>
+            <li><a class="dropdown-item" href="#">Thời trang</a></li>
+            <li><a class="dropdown-item" href="#">Khác</a></li>
+            
+            <!--
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+--> 
+            <!--              <li><a class="dropdown-item" href="#">Something else here</a></li>-->
+          </ul>
+        </li>
+      </ul>
+      <!--
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+--> 
+      <!--		  LOGIN              -->
+      <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+        <input name="sitesearch" type="hidden" value="">
+        <input autocomplete="on" class="form-control search" name="q" placeholder="Tìm kiếm Google" required="required"  type="text">
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="row">
+  <div class="col-1"><a href="#"><b>Media</b></a></div>
+  <div class="col-1"><a href="#"><b>Thời sự</b></a></div>
+  <div class="col-1"><a href="#"><b>Xã hội</b></a></div>
+  <div class="col-1"><a href="#"><b>Thế giới</b></a></div>
+  <div class="col-1"><a href="#"><b>Văn Hóa</b></a></div>
+  <div class="col-1"><a href="#"><b>Thể Thao</b></a></div>
+  <div class="col-1"><a href="#"><b>Công nghệ</b></a></div>
+  <div class="col-1"><a href="#"><b>Giải Trí</b></a></div>
+  <div class="col-1"><a href="#"><b>Trong Nước</b></a></div>
+  <div class="col-1"><a href="#"><b>Game</b></a></div>
+  <div class="col-1"><a href="#"><b>Thời Trang</b></a></div>
+  <div class="col-1"><a href="#"><b>...</b></a></div>
+</div>
+	 <!-- ===========================================================Header=================================================================================================	-->
+<div class="container"> 
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <div class="flex-grow-1">
+          <div> <img src="Images/Chinhphu.jpg" class="img-thumbnail"> </div>
+          <div>
+            <h5 class="mini-text-1"><a href="#"style="text-decoration: none">Hôm nay, Chính phủ trình 44 chính sách đặc thù cho TP Hồ Chí Minh</a></h5>
+          </div>
+        </div>
+        <div class="flex-grow-1">
+          <div> <img src="Images/congty.jpg" class="img-thumbnail" alt=""> </div>
+          <div>
+            <h5 class="mini-text-1"><a href="#"style="text-decoration: none">Bán 100 đồng tiền nước, thu lời gần 37 đồng, một công ty cấp nước lãi khủng</a></h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-6"><a href="web01.html"> <img class="img-thumbnail" src="Images/Cap-Quang-Bien-01.jpg" alt="" width="100%" height="70%"></a>
+        <div class="text" >
+          <h3 style="text-decoration: none; text-align: justify"><a href="web01.html"style="text-decoration: none" >Nguyên nhân 4 tuyến cáp quang biển bị đứt gần nửa năm chưa sửa xong</a></h3>
+          <p style="text-align: justify">Từ tháng 2, các đơn vị quản lý cáp quang biển đã đưa ra lịch sửa chữa, dự kiến hoàn thành một phần vào giữa tháng 4, tuy nhiên cả bốn tuyến hiện vẫn đang tiếp tục lỗi.</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="flex-grow-1">
+          <div> <img src="Images/bds.jpg" class="img-thumbnail" alt="" id="mini-img"> </div>
+          <div class="right-text">
+            <h5 class="mini-text"><a href="#"style="text-decoration: none">Giá bất động sản có thể giảm khi lãi suất hạ nhiệt</a></h5>
+          </div>
+        </div>
+        <div class="flex-grow-1">
+          <div> <img src="Images/Khoi-Nghiep-Genz.jpg" class="img-thumbnail" alt="" id="mini-img"> </div>
+          <div class="right-text">
+            <h5 class="mini-text"><a href="#"style="text-decoration: none">Gen Z khởi nghiệp, không nên hi vọng đầu tư ăn xổi lãi nhanh</a></h5>
+          </div>
+        </div>
+        <div class="flex-grow-1">
+          <div> <img src="Images/Lai-Suat-Tien.jpg" class="img-thumbnail" alt="" id="mini-img"> </div>
+          <div class="right-text">
+            <h5 class="mini-text"><a href="#"style="text-decoration: none">Lãi suất điều hành hạ, thị trường cần tới 6 tháng mới thẩm thấu</a></h5>
+          </div>
+        </div>
+        <div class="flex-grow-1">
+          <div> <img src="Images/1006.jpeg" class="img-thumbnail" alt="" id="mini-img"> </div>
+          <div class="right-text">
+            <h5 class="mini-text"><a href="#"style="text-decoration: none">EVN lại kiến nghị tăng giá điện từ tháng 9.2023</a></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===========================================================GRID=================================================================================================	--> 
+<br>
+<div class="container">
+  <div class="grid-container">
+    <div class="grid-item">THỜI SỰ</div>
+    <div class="grid-item">XÃ HỘI</div>
+    <div class="grid-item">CÔNG ĐOÀN</div>
+    <div class="grid-item">THẾ GIỚI</div>
+    <div class="grid-item"> <a href="#"> <img src="grid/Chu-Tich-Nuoc.jpeg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;" >Chủ tịch nước căn dặn thanh niên nỗ lực, không tự hài lòng với bản thân</a> </div>
+    <div class="grid-item"> <a href="#"> <img src="grid/Pgs-Mai-Duy-Ton-2.jpg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;">Khi tăng phụ cấp thì thu nhập của bác sĩ dự kiến tăng thế nào?</a> </div>
+    <div class="grid-item"> <a href="#"> <img src="grid/5A.jpg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;">Đưa hoạt động chăm lo người lao động vào chấm điểm thi đua ở Bắc Gian</a> </div>
+    <div class="grid-item"> <a href="#"> <img src="grid/Nhat-Ban.jpg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;">Xả súng và đâm dao ở Nhật Bản, 2 cảnh sát thiệt mạng</a> </div>
+    <div class="grid-item"> <a href="#"> <img src="grid/Img9870-168500877781.jpg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;">Phát biểu nhận nhiệm vụ của tân Bộ trưởng Bộ TNMT Đặng Quốc Khánh</a> </div>
+    <div class="grid-item"> <a href="#"> <img src="grid/1-2 (1).jpg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;">Mạo danh thương hiệu, tổ chức để lừa đảo, nhiều người mắc bẫy</a> </div>
+    <div class="grid-item"> <a href="#"> <img src="grid/5-7.jpg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;">Chương trình Phúc lợi đoàn viên công đoàn</a> </div>
+    <div class="grid-item"> <a href="#"> <img src="grid/Nga-Belarus.jpg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;">Nga ký thỏa thuận vũ khí hạt nhân với láng giềng</a> </div>
+    <div class="grid-item"> <a href="#"> <img src="grid/Tran-Luu-Quang.jpeg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;">Việt Nam nêu 5 đề xuất phát triển tại Hội nghị Tương lai châu Á</a> </div>
+    <div class="grid-item"> <a href="#"> <img src="grid/7.jpg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;">Đường trăm tỉ đồng ở Quảng Nam vướng 7 năm vì 1 hộ dân</a> </div>
+    <div class="grid-item"> <a href="#"> <img src="grid/IMG_1993.jfif" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;">Nghiên cứu thêm phương thức hỗ trợ cho đoàn viên mua nhà ở xã hội</a> </div>
+    <div class="grid-item"> <a href="#"> <img src="grid/Duc.jpg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;">Nền kinh tế lớn nhất EU đã bước vào suy thoái</a> </div>
+  </div>
+</div>
+<br>
+<br>
+<!-- ===========================================================CAROUSEL=================================================================================================	--> 
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<div class="container">
+  <div id="slideShow" class="carousel mx-auto" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active"> <img src="slideshow/c716a373e7b3793e2134ca417672d0ba.jpg" class="d-block w-100" height="300px" alt="Banner1"> </div>
+      <div class="carousel-item"> <img src="slideshow/dm-spdoitra-700-250.jpg" class="d-block w-100" height="300px" alt="Banner2"> </div>
+      <div class="carousel-item"> <img src="slideshow/hot-sale-het-thang-6-giam-kho-mau-den-50-tai-dien.png" class="d-block w-100" height="300px" alt="Banner3"> </div>
+    </div>
+    <a class="carousel-control-prev" href="#slideShow" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"> </span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#slideShow" role="button" data-slide="next"> <span class="carousel-control-next-icon"  aria-hidden="true"> </span> <span class="sr-only">Previous</span> </a> </div>
+</div>
+<br>
+<br>
+<div class="container">
+  <div class="grid-container">
+    <div class="grid-item"><b>KINH DOANH</b></div>
+    <div class="grid-item"><b>VĂN HÓA - GIẢI TRÍ</b></div>
+    <div class="grid-item"><b>THỂ THAO</b></div>
+    <div class="grid-item"><b>CÔNG NGHỆ</b></div>
+    <div class="grid-item"> <a href="#"> <img src="grid/Nha-Tran-Tran-No.jpg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;" >Mỹ tiến gần hơn với thỏa thuận trần nợ</a> </div>
+    <div class="grid-item"> <a href="#"> <img src="grid/Anh-10.jpeg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;">Đà Nẵng bảo tồn di sản Ngũ Hành Sơn để phát triển du lịch bền vững</a> </div>
+    <div class="grid-item"> <a href="#"> <img src="grid/Binh-Dinh-Vs-Nam-Din.jpg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;">Nhận định Bình Định vs Nam Định tại tại vòng 9 V.League 2023</a> </div>
+    <div class="grid-item"> <a href="#"> <img src="grid/Anh-Man-Hinh-2023-05.jpg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;">Sony bán 600.000 kính thực tế ảo chỉ trong 6 tuần</a> </div>
+    <div class="grid-item"> <a href="#"> <img src="grid/Can-Tho.jpg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;">Sau khai trương, lượng khách bay Vân Đồn - Cần Thơ có xu hướng giảm</a> </div>
+    <div class="grid-item"> <a href="#"> <img src="grid/4-11.jpg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;">Hòa mình vào thiên nhiên hoang dã khi đến rừng Cúc Phương</a> </div>
+    <div class="grid-item"> <a href="#"> <img src="grid/CC3F6D12-A70F-4D21-B.jpeg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;">Câu lạc bộ Hà Nội thiệt quân trước chuyến làm khách ở Bình Dương</a> </div>
+    <div class="grid-item"> <a href="#"> <img src="grid/338H767-Highres.jpg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;">OpenAI treo giải 100.000 USD cho người tìm ra cách quản lý trí tuệ nhân tạo</a> </div>
+    <div class="grid-item"> <a href="#"> <img src="grid/IMG_2754-02.jpeg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;">Da Nang Mikazuki: Một Nhật Bản thu nhỏ với vô vàn các hoạt động độc đáo</a> </div>
+    <div class="grid-item"> <a href="#"> <img src="grid/Mong-Sen-4.jpg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;">Điểm khác biệt giữa 2 đệ nhất cầu trụ cao vùng Tây Bắc</a> </div>
+    <div class="grid-item"> <a href="#"> <img src="grid/Truong-Son.jpg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;">Kỳ thủ Nguyễn Ngọc Trường Sơn giành hạng ba tại ChessKid Cup</a> </div>
+    <div class="grid-item"> <a href="#"> <img src="grid/Anh-Man-Hinh-2023-05 (2).jpg" width="130px" height="80px" style="float: left"> </a> <a href="#" style="float: right;width: 130px;">Soundcloud tiếp tục sa thải nhân viên với mong muốn có lãi</a> </div>
+  </div>
+</div>
+
+<!-- ===========================================================CAROUSEL=================================================================================================	--> 
+<br>
+<br>
+<br>
+<div class="container">
+  <div id="slideShow2" class="carousel mx-auto" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item"> <img src="slideshow/c716a373e7b3793e2134ca417672d0ba.jpg" class="d-block w-100" height="300px" alt="Banner1"> </div>
+      <div class="carousel-item active"> <img src="slideshow/dm-spdoitra-700-250.jpg" class="d-block w-100" height="300px" alt="Banner2"> </div>
+      <div class="carousel-item"> <img src="slideshow/hot-sale-het-thang-6-giam-kho-mau-den-50-tai-dien.png" class="d-block w-100" height="300px" alt="Banner3"> </div>
+    </div>
+    <a class="carousel-control-prev" href="#slideShow2" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"> </span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#slideShow2" role="button" data-slide="next"> <span class="carousel-control-next-icon"  aria-hidden="true"> </span> <span class="sr-only">Previous</span> </a> </div>
+</div>
+<br>
+<br>
+
+<!-- ============================================================================================================================================================	-->
+
+<div class="container">
+  <div class="grid-container2">
+    <div class="item1">
+      <div class="left"> <a href="#"> <img src="grid/Sieu-Bao-16850690898.jpeg" height="100px;" width="100%;"> </a> </div>
+      <div class="right2"> <a href="#" >Xuất hiện siêu bão Mawar giật cấp 17 dù mới chỉ đầu mùa</a> <br>
+        <a href="#" style="font-size: 16px;font-weight: normal"> Cơ quan khí tượng của Việt Nam cảnh báo cần đề phòng một mùa bão bất thường <br>
+        vì chỉ mới đầu mùa đã xuất hiện siêu bão Mawar </a> </div>
+    </div>
+    <div class="item2">
+      <div style="width: 100%"> <a href="https://viettel.vn/tin-tuc/chi-tiet/mien-phi-home-camera-khi-mua-goi-luu-tru-cloud-kem-ftth-viettel/17386252/"> <img src="grid/Right banner Viettel (1).jpg " width="100%" height="250px"> </a> </div>
+      <br>
+      <br>
+      <div style="width: 100%"> <a href="#"> <img src="grid/21_0.jpg" width="100%" height="250px"> </a> </div>
+    </div>
+    <div class="item1">
+      <div class="left"> <a href="#"> <img src="grid/Hanoi-Binhduong2022-.jpg"  height="100px;" width="100%"> </a> </div>
+      <div class="right2"> <a href="#" >Nhận định Bình Dương - Hà Nội FC: Khó khăn cho thầy trò Lê Huỳnh Đức</a> <br>
+        <a href="#" style="font-size: 16px;font-weight: normal"> Trận Bình Dương - Hà Nội hứa hẹn sẽ mang đến thử thách lớn cho thầy trò huấn luyện <br>
+        viên Lê Huỳnh Đức, với nhiệm vụ kiếm trận thắng đầu.. </a> </div>
+    </div>
+    <div class="item1">
+      <div class="left"> <a href="#"> <img src="grid/Co-Phieu-Eve.png"  height="100px;" width="100%"> </a> </div>
+      <div class="right2"> <a href="#" >Nắng hè gay gắt, cổ phiếu của doanh nghiệp chăn ga gối đệm tăng phi mã</a> <br>
+        <a href="#" style="font-size: 16px;font-weight: normal"> Cổ phiếu của thương hiệu chăn ga gối đệm Everon đã tăng bứt phá hơn 33% so với đầu tháng 5. </a> </div>
+    </div>
+    <div class="item1">
+      <div class="left"> <a href="#"> <img src="grid/IMG_6477.jfif"  height="100px;" width="100%"> </a> </div>
+      <div class="right2"> <a href="#" >Trọng tài gây tranh cãi trong trận Công an Hà Nội - Sông Lam Nghệ An</a> <br>
+        <a href="#" style="font-size: 16px;font-weight: normal"> Tình huống bắt việt vị của trợ lí trọng tài Nguyễn Thành Sơn trong trận đấu giữa Công an Hà Nội <br>
+        và Sông Lam Nghệ An ở vòng 9 V.League... </a> </div>
+    </div>
+    <div class="item1">
+      <div class="left"> <a href="#"> <img src="grid/Binh-Dinh-Vs-Nam-Din.jpg"  height="100px;" width="100%"> </a> </div>
+      <div class="right2"> <a href="#" >Bình Định và Nam Định lỡ cơ hội chen chân vào nhóm đầu</a> <br>
+        <a href="#" style="font-size: 16px;font-weight: normal"> Bình Định và Nam Định đều bỏ lỡ cơ hội chen chân vào nhóm đầu khi hoà nhau 1-1 ở vòng 9 <br>
+        Night Wolf V.League 2023. </a> </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================================================================================================================= -->
+<div class="container" id="media-bar">
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid"> <a class="navbar-brand" id="media">Media</a> 
+      <!--
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+--> 
+    </div>
+  </nav>
+  <div class="row row-cols-4">
+    <div class="col-6">
+      <div class="bground">
+        <iframe class="video" src="https://www.youtube.com/embed/videoseries?list=PLsyvDWwjkTqtOmqAiTzzfHspTAztB-udL" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+      </div>
+      <!--	 --> 
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;"> <a href="https://www.youtube.com/watch?v=t3AloL_oemo" target="_blank"><img src="Images/GV-2705.jpg" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <p class="card-text"><b> <a href="">Giá vàng và ngoại tệ 27.5: Vàng chật vật leo dốc, USD tiếp đà tăng</a></b></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;"> <a href="https://www.youtube.com/watch?v=t3AloL_oemo" target="_blank"><img src="Images/Vu-Mua-3-02.jpg" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <p class="card-text"><b> <a href="">Người dân Thái Bình tranh thủ xuống đồng gặt lúa, tránh thời tiết nắng nóng</a></b></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;"> <a href="https://www.youtube.com/watch?v=x8h-CKXEbD4" target="_blank"><img src="Images/PAGASAR-2.jpg" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <p class="card-text"><b> <a href="">Tin tức 24h: Hướng di chuyển mới nhất của siêu bão Mawar</a></b></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;"> <a href="https://www.youtube.com/watch?v=opEOCtHE5g8" target="_blank"><img src="Images/DULICHHE.jpg" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <p class="card-text"><b> <a href="">Cao điểm hè 2023, doanh nghiệp du lịch tất bật bán tour</a></b></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;"> <a href="https://www.youtube.com/watch?v=bQbfam0UI7s" target="_blank"><img src="Images/TT-Tuan-Co-QC.00_03_.jpg" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <p class="card-text"><b> <a href="">Bản tin dự báo thời tiết đêm nay và ngày mai 28.5</a></b></p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;"> <a href="https://www.youtube.com/watch?v=3_stVqKbFw4" target="_blank"><img src="Images/Tien-Linh-3-01.jpg" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <p class="card-text"><b> <a href="">Tiến Linh giúp Bình Dương hoà Hà Nội FC </a></b></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================================================================================================================= -->
+<div class="footer">
+  <div class="footer-1">
+    <div class="logo-footer"> <a class="logof" href="#">BÁO LAO ĐỘNG</a></div>
+  </div>
+  <div class="footer-2">
+    <div class="sv">
+      <p>© 1999 - 2023 Báo Lao Động<br>
+        Cơ quan của Tổng Liên đoàn Lao động Việt Nam.<br>
+        All rights reserved.</p>
+      <p>Giấy phép số 346/GP-BTTTT do Bộ TTTT cấp ngày 08.07.2022<br>
+        Tổng Biên tập: Nguyễn Ngọc Hiển</p>
+      <p>Địa chỉ liên hệ:<br>
+        Số 06, Phạm Văn Bạch, phường Yên Hoà, quận Cầu Giấy, TP.Hà Nội</p>
+    </div>
+  </div>
+</div>
+
+<!--	===============================================================================================--> 
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+crossorigin="anonymous"></script>
+</body>
+</html>
